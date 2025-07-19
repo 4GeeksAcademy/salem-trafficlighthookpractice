@@ -1,11 +1,47 @@
-/* 
+/* // also i want to ass a halo of light around each lighet once a button is pressec  */
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 300px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+}
 
-*/
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.red {
+  background-color: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+}
+
+.green {
+  background-color: green;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+}
+
+.glow {
+  opacity: 10;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+.traffic-light-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
