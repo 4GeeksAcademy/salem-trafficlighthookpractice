@@ -26,15 +26,15 @@
 }
 
 .redLight {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.519);
 }
 
 .yellowLight {
-  background-color: yellow;
+  background-color: rgb(255, 162, 0);
 }
 
 .greenLight {
-  background-color: green;
+  background-color: rgba(0, 255, 0, 0.519);
 }
 
 .redLight.active,

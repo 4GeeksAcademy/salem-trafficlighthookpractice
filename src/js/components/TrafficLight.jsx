@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "../../styles/index.css";
 
 const TrafficLight = () => {
-  const [currentLight, setCurrentLight] = useState("red");
+  const [currentLight, setCurrentLight] = useState();
 
   // on click
   const clickFunction = (color) => {
